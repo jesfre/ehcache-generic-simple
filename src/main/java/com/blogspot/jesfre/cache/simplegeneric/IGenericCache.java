@@ -14,7 +14,7 @@ public interface IGenericCache<K, V> {
 
 	/**
 	 * Puts the new value into the cache.
-	 * @param key
+	 * @param key cannot be null
 	 * @param value
 	 */
 	void put(K key, V value);
